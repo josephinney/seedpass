@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-2">
           <div className="flex items-center space-x-2 md:space-x-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <span className={`hidden md:block text-xl font-bold ${theme === 'dark' ? 'text-green-400' : 'text-black'}`}>SeedPass</span>
           </div>
           <div className="flex justify-around w-full md:w-auto md:justify-end md:space-x-8">
@@ -41,6 +41,7 @@ const Navigation = () => {
               <Info size={20} />
               <span className="text-xs mt-1">About</span>
             </Link>
+            <ThemeToggle />
           </div>
         </div>
       </div>
