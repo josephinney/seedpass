@@ -1,30 +1,4 @@
-// export default function AboutPage() {
-//   return (
-//     <div className="w-full max-w-lg mx-auto px-4">
-//       <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center">
-//         <h1 className="text-2xl font-bold mb-6 text-gray-800 dark:text-green-400">About SeedPass</h1>
-        
-//         <p className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4">Dev: Jose Emilio Phinney</p>
-        
-//         <p className="text-gray-700 dark:text-gray-300 mb-2">If you have any questions or feedback, feel free to reach out 📧:</p>
-        
-//         <a 
-//           href="mailto:josephinney216@gmail.com" 
-//           className="text-green-600 dark:text-green-400 hover:underline"
-//         >
-//           josephinney216@gmail.com
-//         </a>
-        
-//         <div className="mt-8 p-4 bg-gray-100 dark:bg-gray-700 rounded-md">
-//           <h2 className="text-lg font-semibold mb-2 text-gray-800 dark:text-green-300">About SeedPass Technology</h2>
-//           <p className="text-gray-700 dark:text-gray-300">
-//             SeedPass uses deterministic password generation to create strong, unique passwords for each service without storing them anywhere. This approach provides both security and convenience.
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
+
 
 'use client';
 

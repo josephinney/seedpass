@@ -1,7 +1,7 @@
 'use client';
 
 import { useTheme } from "@/providers/ThemeProvider";
-import { HelpCircle, Lightbulb, ShieldCheck, Settings2 } from 'lucide-react';
+import { HelpCircle, Lightbulb, ShieldCheck } from 'lucide-react';
 
 export default function HelpPage() {
   const { theme } = useTheme();
