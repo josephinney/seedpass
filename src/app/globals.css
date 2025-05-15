@@ -1,26 +1,22 @@
 @import "tailwindcss";
 
+/* 1. Importar las bases, componentes y utilidades de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Opcional: definir colores por defecto */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-bg: theme('colors.gray.100');
+  --color-text: theme('colors.black');
+}
+.dark {
+  --color-bg: theme('colors.gray.900');
+  --color-text: theme('colors.white');
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 3. Aplicar variables a tu body (opcional si usas clases directas) */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
